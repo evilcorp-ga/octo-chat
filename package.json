@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node bin/http.js",
+    "dev": "nodemon bin/http.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,10 @@
     "express": "4.16.2",
     "jsonwebtoken": "8.1.0",
     "mongoose": "4.13.1",
+    "pug": "2.0.0-rc.4",
     "require-dir": "0.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.12.1"
   }
 }

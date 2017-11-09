@@ -1,0 +1,29 @@
+html
+    head
+        title Octo-chat
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.0/dark.css" rel="stylesheet")
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/hack/0.8.0/hack.css" rel="stylesheet")
+    body(class="container hack dark")
+        h1 Login
+        form(class="form")
+            fieldset(class="form-success form-group")
+                label(for="username") Username:
+                input(id="username" placeholder="Username" class="form-control")
+            fieldset(class="form-group form-success")
+                label(for="password") Password:
+                input(id="password" type="password" placeholder="Password" class="form-control")
+            div(class="form-actions")
+                button(type="button" class="btn btn-success btn-block") Login
+        h1 Signup
+        form(class="form")
+            fieldset(class="form-group form-error")
+                label(for="username") Username:
+                input(id="username" placeholder="Username" class="form-control")
+            fieldset(class="form-group form-error")
+                label(for="password") Password:
+                input(id="password" type="password" placeholder="Password" class="form-control")
+            fieldset(class="form-group form-error")
+                label(for="password") Password:
+                input(id="password" type="password" placeholder="Confirm Password" class="form-control")
+            div(class="form-actions")
+                button(type="button" class="btn btn-error btn-block") Signup
