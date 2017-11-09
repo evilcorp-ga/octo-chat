@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/evilcorp-ga/octo-chat/issues"
   },
-  "homepage": "https://github.com/evilcorp-ga/octo-chat#readme"
+  "homepage": "https://github.com/evilcorp-ga/octo-chat#readme",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "jsonwebtoken": "8.1.0",
+    "mongoose": "4.13.1",
+    "require-dir": "0.3.2"
+  }
 }
