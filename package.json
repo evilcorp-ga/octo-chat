@@ -1,0 +1,21 @@
+{
+  "name": "octo-chat",
+  "version": "1.0.0",
+  "description": "Real time chat without using javascript on client in nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/http.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilcorp-ga/octo-chat.git"
+  },
+  "keywords": [],
+  "author": "Rahul Bhola<git@rahulbhola.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evilcorp-ga/octo-chat/issues"
+  },
+  "homepage": "https://github.com/evilcorp-ga/octo-chat#readme"
+}
