@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 
 var app = express();
 app.set('view engine', 'pug');
+app.use(parser.urlencoded({ extended: false }));
 
 var routes = loader('../routes');
 Object.keys(routes).forEach((route)=>{
